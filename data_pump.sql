@@ -1,4 +1,5 @@
-declare
+CREATE OR REPLACE procedure SYS.CREATE_DATA_PUMP
+is
     h1 number;
     dir_name varchar2(30);
     l_date TIMESTAMP;
